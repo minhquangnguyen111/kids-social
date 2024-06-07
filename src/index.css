@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://res.cloudinary.com/datbut4zs/image/upload/v1717646701/gpurg6nggrhngknligqq.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Ảnh nền sẽ không di chuyển khi cuộn trang */
+  color: rgb(0, 0, 0);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace,'Segoe UI Emoji', 'Noto Color Emoji', 'Twemoji', 'Apple Color Emoji', 'Segoe UI', 'Roboto', sans-serif;
+}
+
+.hideScrollBar::-webkit-scrollbar {
+  width: 0;
+  display: none;
+  height: 0;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

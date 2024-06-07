@@ -1,0 +1,52 @@
+.overflow-y-auto {
+    max-height: 300px; /* hoặc bất kỳ giá trị nào phù hợp */
+    overflow-y: auto;
+    scrollbar-width: thin; /* Tắt thanh cuộn mặc định của trình duyệt */
+}
+
+.overflow-y-auto::-webkit-scrollbar {
+    width: 8px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+}
+
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 4px;
+}
+.overflow-y-auto {
+    max-height: 300px; /* hoặc bất kỳ giá trị nào phù hợp */
+    overflow-y: auto;
+    transition: max-height 0.3s ease; /* Áp dụng hiệu ứng mềm mại */
+    background-color: rgba(0, 0, 0, 0.2); /* Màu của thanh cuộn */
+    border-radius: 4px;
+}
+
+.overflow-y-auto:hover {
+    max-height: 500px; /* Chiều cao tối đa khi hover */
+   
+    border-radius: 4px;
+}
+.overflow-y-auto {
+    max-height: 300px; /* hoặc bất kỳ giá trị nào phù hợp */
+    overflow-y: auto;
+    backdrop-filter: blur(10px); /* Áp dụng hiệu ứng mờ */
+    
+}
+
+/* Tùy chỉnh thanh cuộn */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); /* Màu của thanh cuộn */
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.4); /* Màu của thanh cuộn khi hover */
+}

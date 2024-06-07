@@ -1,0 +1,61 @@
+.btn {
+ display: inline-block;
+ width: 100%;
+ padding: 0.9rem 1.8rem;
+ font-size: 18px;
+ font-weight: 700;
+ color: black;
+ border: 3px solid rgb(26, 212, 233);
+ cursor: pointer;
+ position: relative;
+ background-color: transparent;
+ text-decoration: none;
+ overflow: hidden;
+ z-index: 1;
+ font-family: inherit;
+}
+
+.btn::before {
+ content: "";
+ position: absolute;
+ left: 0;
+ top: 0;
+ width: 100%;
+ height: 100%;
+ background-color: rgb(26, 212, 233);
+ transform: translateX(-100%);
+ transition: all .3s;
+ z-index: -1;
+}
+
+.btn:hover::before {
+ transform: translateX(0);
+}
+
+
+
+.text {
+  background-image: url('https://res.cloudinary.com/datbut4zs/image/upload/v1715162013/mmaovg9skdz23hdwtvyr.png') ;
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 40px;
+  width: 100%;
+ font-family: luminari;
+
+}
+@keyframes in-circle-swoop {
+  from {
+    clip-path: var(--circle-top-right-out);
+  }
+  to {
+    clip-path: var(--circle-bottom-right-in);
+  }
+}
+
+[transition-style="in:custom:circle-swoop"] {
+  --transition__duration: 5s;
+  animation-name: in-circle-swoop;
+}
+

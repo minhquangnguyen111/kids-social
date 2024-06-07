@@ -1,0 +1,5 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url('fonts/Pacifico-Regular.ttf') format('truetype');
+    /* Đường dẫn có thể phải điều chỉnh tùy thuộc vào cách bạn tổ chức thư mục public */
+}

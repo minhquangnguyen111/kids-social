@@ -1,0 +1,17 @@
+
+
+.emoji-picker {
+    position: fixed;
+    top: 0;
+    right: '80px';
+    z-index: 1000;
+    
+   
+}
+
+.comment{
+   position: relative;
+   left: 1150px;
+  bottom: 220px;
+  z-index: 10;
+}

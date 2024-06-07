@@ -1,0 +1,18 @@
+// <!-- const story = [
+//         {
+//             url: 'https://cdn.pixabay.com/photo/2022/01/29/09/01/bird-6976834_1280.jpg',
+//             duration: 3000
+//         },
+//         {
+//             url: 'https://cdn.pixabay.com/video/2024/03/31/206294_large.mp4',
+//             duration: 5000,
+//             type: 'video'
+//         },
+//         {
+//             content: (props) => (
+//                 <div style={{ background: "pink", padding: 20 }}>
+//                     <h1 style={{ marginTop: '100%', marginBottom: 0 }}>ICON</h1>
+//                     <h1 style={{ marginTop: 6 }}>Custom title</h1>
+//                 </div>
+//             )
+//         } -->

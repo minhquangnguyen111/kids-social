@@ -1,0 +1,7 @@
+.bio-container {
+    max-height: 4em; /* Giới hạn số dòng */
+    overflow: hidden; /* Ẩn phần vượt quá giới hạn */
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Số dòng tối đa */
+    -webkit-box-orient: vertical;
+}
